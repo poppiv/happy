@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class=imgbx>
+           <img id="photos" src="download (1).jpg" alt="">
+        <div class="smaller">
+            <img onclick="myfunction()" src="download (3).jpg" alt="">
+            <img onclick="mfunction()" src="download.jpg" alt="">
+        </div>   
+        </div>
+    </div>
+    
+
+    <script>
+        function myfunction()
+        {
+            document.getElementById("photos").setAttribute("src","download (3).jpg")
+        }
+        function mfunction()
+        {
+            document.getElementById("photos").setAttribute("src","download.jpg")
+        }
+    </script>
+
+</body>
+</html>
